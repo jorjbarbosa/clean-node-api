@@ -6,5 +6,6 @@ module.exports = {
     '.+\\.ts$': 'ts-jest'
   },
   coverageProvider: 'v8',
-  testEnvironment: 'node'
+  testEnvironment: 'node',
+  preset: '@shelf/jest-mongodb'
 }
